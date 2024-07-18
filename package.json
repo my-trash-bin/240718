@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "tsx .",
+    "postinstall": "prisma generate && prisma db push"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "prisma": "^5.17.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
